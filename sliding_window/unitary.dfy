@@ -1,6 +1,9 @@
 include "sliding_window.dfy"
 
-
+/** This module refines sliding_window.dfy
+*   if you want to know more about the functions
+*   and methods explained here, please visit that module.
+*/
 abstract module SlidingWindowForAllP refines SlidingWindow{
 
 
@@ -18,7 +21,7 @@ abstract module SlidingWindowForAllP refines SlidingWindow{
         else min_pos_val(v, ini, fin - 1)
     }
 
-    //Métodos
+    //Methods
     method m_is_true_elem(elem : T) returns (res : bool)
     ensures res == is_true_on_elem(elem)
 

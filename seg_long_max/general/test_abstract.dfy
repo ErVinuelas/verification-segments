@@ -4,6 +4,11 @@ include "seg_long_max_abs.dfy"
 *   of how to use the abstract module to model a 
 *   concrete problem of "segment of max length" when 
 *   given a property.
+*   
+*   Some of the functions, methods and lemmas have
+*   been defined at seg_long_max_abs.dfy, so if you
+*   want more information about them you can go visit
+*   that file.
 */
 module TestRelation refines SegLongMax {
     //We fix the type we will be working on

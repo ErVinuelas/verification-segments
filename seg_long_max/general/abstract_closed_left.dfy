@@ -4,6 +4,11 @@ include "seg_long_max_abs.dfy"
 *   different components of the closed_on_left 
 *   modules so that we understand more easily how
 *   they are reasoned and developed.
+*
+*   Some of the functions, methods and lemmas have
+*   been defined at seg_long_max_abs.dfy, so if you
+*   want more information about them you can go visit
+*   that file.
 */
 abstract module AbstractClosedLeft refines SegLongMax {
 

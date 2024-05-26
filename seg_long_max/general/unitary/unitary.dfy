@@ -10,7 +10,7 @@ include "../abstract_closed_left.dfy"
 abstract module SegLongMaxUnitary refines AbstractClosedLeft {
 
     /** Property that needs to be fulfilled for all the elements
-    *    of the segment.
+  *    of the segment.
     */
     ghost function is_true_on_elem(elem : T) : bool
 

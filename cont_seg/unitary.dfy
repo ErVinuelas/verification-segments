@@ -1,8 +1,13 @@
 include "count_seg.dfy"
 
+/** This module refines count_seg.dfy
+*   the functions and methods used here are
+*   explained in more detailed at such file.
+*/
+
 abstract module ContSegForAllP refines ContSeg {
 
-    //Funciones
+    //Functions
     ghost function is_true_on_elem(elem : T) : bool
 
     ghost function is_true_on_segment(v : seq<T>, ini : int, fin : int) : bool
@@ -17,7 +22,7 @@ abstract module ContSegForAllP refines ContSeg {
         else min_pos_val(v, ini, fin - 1)
     }
 
-    //Métodos
+    //Methods
     method m_is_true_elem(elem : T) returns (res : bool)
     ensures res == is_true_on_elem(elem)
 

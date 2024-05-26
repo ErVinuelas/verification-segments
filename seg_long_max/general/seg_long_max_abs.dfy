@@ -13,7 +13,7 @@ abstract module SegLongMax {
     type T
 
     /** Predicate that allow us to check if the property holds in the
-    *   defined by the v : seq<T>uence and its limits [ini, fin)
+    *   defined by the v : seq<T> and its limits [ini, fin)
     * 
     *   v -> [ * | * | ... |  *   ] 
     *         ini| ...     |fin-1| fin
